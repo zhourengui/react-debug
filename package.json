@@ -1,0 +1,18 @@
+{
+  "name": "react-debug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development node ./esbuild.config.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chialab/esbuild-plugin-html": "^0.17.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@zhourengui/esbuild-dev-server": "^1.0.16",
+    "cross-env": "^7.0.3"
+  }
+}
